@@ -119,6 +119,19 @@ table{
 .formulario{
     text-align: center;
 }
-input{
-    border-radius: 1px;
-}
+
+
+
+  input[type=text], select, textarea {
+    width: 70%;
+    height: 100%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
