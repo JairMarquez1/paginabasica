@@ -1,0 +1,124 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    padding-left: 5px;
+    /*width: fit-content;
+    background-color: rgba(68, 68, 68, 0.575);*/
+    border-radius: 10px;
+}
+
+#titulo{
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+
+body{
+    margin-left: 5.2%;
+    margin-right: 5.2%;
+    background-image: url("images/background.jpg");
+    background-size: 40%;
+    background-color: black;
+    overflow-wrap: normal;
+}
+
+.barra-navegacion li + li:before{
+    content: " | ";
+    padding-right:  0.9%;
+}
+
+.barra-navegacion{
+    border-radius: 10px 10px 0px 0px;
+    background-color: palegoldenrod;
+}
+
+
+.barra-navegacion ul{
+    padding: 10px;
+    text-align: center;
+}
+
+.barra-navegacion li{
+    display: inline;
+    padding-left: 0.9%;
+}
+
+.barra-navegacion li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.principal{
+    height: 40vw;
+    background-color: palegoldenrod;
+    padding: 1%;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.pie{
+    background-color: rgba(68, 68, 68, 0.575);
+    border-radius: 5px;
+    text-align: center;   
+}
+
+.pie p{
+    color: whitesmoke;
+}
+
+p{
+    margin: 0;
+}
+
+td{
+    text-align: center;
+    font-size: 0.8vw;
+    font-weight: bold;
+    height: 11.8%;
+}
+
+td a{
+    text-decoration: none;
+}
+
+td a:visited{
+    color: rgb(48, 0, 0);
+}
+
+.cabecera-horario td{
+    border-radius: 5px 5px 0 0;
+    padding: 3px;
+    width: 17%;
+    height: 5%;
+    text-align: center;
+    font-weight: bold;
+    background-color:  rgba(41, 93, 170, 0.575);
+}
+
+.hora{
+    background-color:  rgba(41, 93, 170, 0.575);
+}
+
+tr{
+    background-color:rgba(68, 68, 68, 0.575); 
+}
+table{
+    width: 100%;
+    height: 100%;
+    overflow-wrap: anywhere;
+
+}
+
+.paginasfav td{
+    width: 30%;
+}
+ 
+.formulario{
+    text-align: center;
+}
+input{
+    border-radius: 1px;
+}
